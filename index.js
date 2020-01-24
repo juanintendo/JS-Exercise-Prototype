@@ -89,6 +89,11 @@ Car.prototype.fill = function (gallons) {
   this.tank += gallons;
 }
 
+Car.prototype.drive = function (distance) {
+  let driveableMiles = this.tank * this.milesPerGallon;
+  let gallonsNeeded = distance / this.milesPerGallon;
+  if (driveableMiles < distance)
+
 /*
   TASK 3
     - Write a Baby constructor subclassing Person.
