@@ -80,9 +80,13 @@ function Person(name, age) {
 function Car(model, milesPerGallon) {
 
   this.model = model;
+
   this.milesPerGallon = milesPerGallon;
+
   this.tank = 0;
+
   this.odometer = 0;
+
 }	
 
 Car.prototype.fill = function (gallons) {
@@ -140,12 +144,7 @@ return `Playing with ${this.favoriteToy}`;
 /* 
   TASK 4
 
-  In your own words explain the four principles for the "this" keyword below:
-  1. 
-  2. 
-  3. 
-  4. 
-*/
+ 
 
 
 ///////// END OF CHALLENGE /////////
