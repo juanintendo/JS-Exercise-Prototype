@@ -141,9 +141,14 @@ Baby.prototype.play = function(play){
 return `Playing with ${this.favoriteToy}`;
 
 }
+
 /* 
   TASK 4
-
+In your own words explain the four principles for the "this" keyword below:
+  1. Implicit Binding: Refers to current object.
+  2. Explicit binding: If you use .call, .bind or .apply to refer this while calling a function.
+  3. Windows Binding: If you want to refer "this" into a functon but it gets refered to a windows object.
+  4. New Binding: When you create an object that uses the "new" keywordand referes itself when requestin "this".
  
 
 
